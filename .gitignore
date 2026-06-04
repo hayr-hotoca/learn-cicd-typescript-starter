@@ -1,5 +1,5 @@
 node_modules/
 coverage/
-dist/
+# dist/ // commented for google cloud run service to prevent Error: Cannot find module '/usr/src/app/dist/main.js'
 .env
 .vscode
